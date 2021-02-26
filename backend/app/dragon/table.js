@@ -61,8 +61,7 @@ class DragonTable{
         const settingMap = { nickname,saleValue,isPublic,sireValue};
 
         const validQueries = Object.entries(settingMap).filter(([settingKey,settingVlaue])=>{
-            //console.log('1',settingKey,'2',settingVlaue);
-
+        
             if(settingVlaue!==undefined){
                 return new Promise( (resolve,reject) =>{
                     pool.query(
@@ -83,8 +82,5 @@ class DragonTable{
     }
 }
 
-// DragonTable.updateDragon({dragonId:1,nickname:'kiwi'})
-// .then(()=> console.log('success'))
-// .catch(error => console.log(error));
 
 module.exports = DragonTable;
