@@ -30,7 +30,6 @@ const DEFAULT_PROPERTIES = {
 
 class Dragon{
 
-    // add {} 
     constructor({dragonId,birthday,nickname,traits,generationId,isPublic,saleValue,sireValue} = {}){
 
           this.birthday = birthday || DEFAULT_PROPERTIES.birthday;
