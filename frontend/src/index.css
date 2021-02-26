@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+    margin: 10%;
+    font-size: 20px;
+}
+
+
+.dragon-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dragon-p{
+    position: absolute;
+}
+
+.dragon-b{
+    position: absolute;
+}
+
+.dragon-i{
+    z-index: 0;
+}
+
+.logout-button{
+    position: absolute;
+    right:30px;
+    top:30px;
+}
+
+.ad-row-input{
+    width: 100px;
+    height: 20px;
+    margin-right: 15px;
+}
