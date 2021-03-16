@@ -3,7 +3,7 @@ The Project is completed by following the full stack project on Udemy:https://ww
 
  Highlights of the project:
 
-Build a backend server with Node.js and Express.js.
+Build a backend server with Node.js and Express.js./n
 Create a full-on API with GET, POST, and PUT requests.
 Build components with React.js.
 Manage the internal state of the frontend of the frontend with Redux.
